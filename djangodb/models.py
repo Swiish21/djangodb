@@ -6,3 +6,5 @@ class Members(models.Model):
     email = models.EmailField(max_length=200)
     passwd = models.CharField(max_length=50)
     age = models.IntegerField(max_length=3)
+    
+#not finished yet
